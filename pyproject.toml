@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fashion-recommender"
+version = "0.1.0"
+description = "A basic fashion recommender system utilizing both text and image inputs."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.0"
+pandas = "^1.3.0"
+requests = "^2.26.0"
+Pillow = "^8.4.0"
+sentence-transformers = "^2.2.0"
+faiss-cpu = "^1.7.1"
+flask = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
